@@ -25,8 +25,11 @@ Below are the results for each model:
 #Naive Random Oversampling:
 
 Precision: 0.99
+
 Recall: 0.57
+
 F1: 0.72
+
 Balanced accuracy score 0.65
 
 #SMOTE Oversample:
@@ -42,22 +45,30 @@ Balanced accuracy score 0.66
 #Undersample:
 
 Precision: 0.99
+
 Recall: 0.41
+
 F1: 0.58  
+
 Balanced accuracy score 0.55
 
 #Combo SMOTEENN:
 
 Precision: 0.99
+
 Recall: 0.57
+
 F1: 0.72  
+
 Balanced accuracy score 0.55
 
 The data below is for the extension work. The easy ensemble AdaBoost Classifier is the more ideal fit as all four metrics are extremely high. Accuracy by itself can be useless, but if precision and recall are high, then we can rely on the data. This is the model I would use.
 
 top 3 features of importance for the credit model:
 loan_amnt: (0.09175752102205247)
+
 int_rate: (0.06410003199501778)
+
 installment: (0.05764917485461809)
 
 #Credit risk ensemble
@@ -65,13 +76,19 @@ installment: (0.05764917485461809)
 #Balanced Random Forest Classifier:
 
 Precision: 0.99
+
 Recall: 0.90
+
 F1: 0.94
+
 Balanced accuracy score 0.79
 
 #Easy Ensemble AdaBoost Classifier:
 
 Precision: 0.99
+
 Recall: 0.94
+
 F1: 0.97
+
 Balanced accuracy score 0.93
